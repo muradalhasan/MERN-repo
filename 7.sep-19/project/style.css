@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+body{
+    background-color: #000;
+}
+.nav-section{
+    background-image: url(photos/Background.png);
+    background-size: cover;
+    padding: 20px 0;
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.left-logo-section img{
+    margin-left: auto;
+}
+.right-nav-section ul{
+    display: flex;
+    list-style-type: none;
+}
+.right-nav-section ul li{
+    margin-left: 30px;
+}
+.right-nav-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.right-nav-section ul li a:hover {
+    color: #e63946;
+}
+.content {
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 0;
+}
+.content h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+.buttons {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+button {
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s ease;
+}
+
+.service-btn {
+    background-color: #e63946;
+    color: #fff;
+}
+
+.service-btn:hover {
+    background-color: #d62839;
+}
+
+.consult-btn {
+    background-color: #1d3557;
+    color: #fff;
+}
+
+.consult-btn:hover {
+    background-color: #457b9d;
+}
+
+/* @media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .right-nav-section ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .content h1 {
+        font-size: 30px;
+    }
+    
+    .buttons {
+        flex-direction: column;
+    }
+} */
+/* css for hero section starts */
+.hero-section {
+    padding: 50px;
+     background-color: #001829;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.heroa{
+    display: flex;
+    width: 100%;
+}
+.herob{
+    display: flex;
+    width: 100%;
+}
+
+.hero1{
+    border: 5px solid orange;
+    border-radius: 3px ;
+}
+
